@@ -1,0 +1,90 @@
+{
+  "lights": [
+    {
+      "position": {
+        "x": 0.0,
+        "y": 128.0,
+        "z": 0.0
+      },
+      "diffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "attenuation": {
+        "constant": 0.0,
+        "linear": 0.010000000474974514,
+        "quadratic": 1.0000000116860974e-7,
+        "cutoffDist": 0.0
+      },
+      "direction": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "param1": {
+        "lightType": 0.0,
+        "innerAngle": 0.0,
+        "outerAngle": 0.0,
+        "w": 0.0
+      },
+      "param2": {
+        "isOn": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    {
+      "position": {
+        "x": 123.99352264404297,
+        "y": 51.0,
+        "z": -20.0
+      },
+      "diffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "specular": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "attenuation": {
+        "constant": 0.0,
+        "linear": 0.02916397526860237,
+        "quadratic": 1.4067885745205899e-11,
+        "cutoffDist": 0.0
+      },
+      "direction": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "param1": {
+        "lightType": 1.0,
+        "innerAngle": 15.0,
+        "outerAngle": 15.0,
+        "w": 0.0
+      },
+      "param2": {
+        "isOn": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "bulletConstraints": [
+    {
+      "constraintType": "hinge",
+      "rigidBodyAName": "Box1",
+      "rigidBodyBName": "Box2",
+      "pivotInA": {
+        "x": 4.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "pivotInB": {
+        "x": -4.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axisInA": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "axisInB": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    },
+    {
+      "constraintType": "ballSocket",
+      "rigidBodyAName": "Capsule1",
+      "rigidBodyBName": "CapsuleAnchor",
+      "pivotInA": {
+        "x": 0.0,
+        "y": 6.0,
+        "z": 0.0
+      },
+      "pivotInB": {
+        "x": 0.0,
+        "y": -4.0,
+        "z": 0.0
+      }
+    },
+    {
+      "constraintType": "coneTwist",
+      "rigidBodyAName": "TwistAnchor",
+      "rigidBodyBName": "Cone",
+      "frameAEuler": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "frameBEuler": {
+        "x": 0.0,
+        "y": 5.0,
+        "z": 0.0
+      }
+    },
+    {
+      "constraintType": "fixed",
+      "rigidBodyAName": "Cylinder1",
+      "rigidBodyBName": "FixedSphere",
+      "pivotInA": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "pivotInB": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 5.0
+      }
+    }
+  ]
+}
